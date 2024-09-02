@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding-left: 10px;
+    background: white;
+}
+nav .nav-right{
+    display: flex;
+    align-items: center;
+    flex: 0.7;
+    gap: 10px;
+}
+nav #vp{
+    height: 30px;
+    width: 30px;
+}
+nav .nav-main{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 2;
+    padding-right: 10%;
+}
+nav img{
+    height:75px;
+}
+.main-contrainer{
+    flex: 9;
+    margin-top: 70px;
+    display: flex;
+}
+nav input{
+    border:  0.1px solid #d3c0c0;
+    margin-left: 15%;
+    padding-left: 10px;
+    font-size: 20px;
+    height: 6vh;
+    width: 100%;
+    border-radius: 25px;
+}
+nav #search{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: -50px;
+}
+nav #mic{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: -5%;
+}
+.nav-lift{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex: 0.5;
+    margin-right: 1%;
+}
+.nav-lift #pf{
+    border-radius: 200px;
+    width: 40px;
+    height: 40px;
+}
+
+aside{
+    flex: 2;
+    display: flex;  
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+
+
+}
+aside ul{
+    overflow-y: scroll;
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    gap: 5px;
+}
+aside ul li{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10%;
+}
+aside ul li:hover{
+    background: #e9e3e3;
+    cursor: pointer;
+}
+aside img{
+    height: 30px;
+    width: 30px;
+}
+aside ul pre{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 4%;
+}
+aside img{
+    height: 20px;
+    width: 20px;
+    margin-left: 2%;
+}
+#btn{
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    cursor: pointer;
+
+}
+main{
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+
+}
+.button{
+    background: white;
+    padding: 10px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    gap: 10px;
+}
+.video-container{
+    flex: 10;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 55px;
+    justify-content: center;
+    flex-direction: row;
+
+}
+button{
+    padding: 0px 10px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+
+}
+
+button.action:hover{
+    background: #484848;
+    cursor: pointer;
+}
+button:nth-child(1) {
+    background: #000;
+    color: white;
+    height: 35px;
+}
+
+button:nth-child(2) {
+    background: #8f8f8f;
+    color: white;
+    height: 35px;
+}
+
+button:nth-child(3) {
+    background: #8f8f8f;
+    color: white;
+    height: 35px;
+}
+button:nth-child(4) {
+    background: #8f8f8f;
+    color: white;
+    height: 35px;
+}
+button:nth-child(5) {
+    background: #8f8f8f;
+    color: white;
+    height: 35px;
+}
+button:nth-child(6) {
+    background: #8f8f8f;
+    color: white;
+    height: 35px;
+}
+button:nth-child(7) {
+    background: #8f8f8f;
+    color: white;
+    height: 35px;
+}
+button:nth-child(8) {
+    background: #8f8f8f;
+    color: white;
+    height: 35px;
+}
+button:nth-child(9) {
+    background: #8f8f8f;
+    color: white;
+    height: 35px;
+}
+button:nth-child(10) {
+    background: #8f8f8f;
+    color: white;
+    height: 35px;
+}
+button:nth-child(11) {
+    background: #8f8f8f;
+    color: white;
+    height: 35px;
+}
+button:nth-child(12) {
+    background: #8f8f8f;
+    color: white;
+    height: 35px;
+}
+iframe {
+    flex: 1;
+    height: 60%;
+}
+
+.video-container .info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 2% 2%;
+    
+}
+.video {
+    flex: 1;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 10px;
+    height: 300px
+}
+iframe{
+    border-radius: 8px;
+}
+iframe:hover{
+    border-radius: 0;
+    
+}
+.video .info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 2% 2%;
+}
+
+.video .info img {
+    border-radius: 200px;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+}
+
+.video p{ 
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 12px;
+    padding: 0px 0px 10px 10px;
+}
+
+.video sup {
+    display: flex;
+    margin-left: 6px;
+    gap: 5px;
+    font-weight: 600;
+}
